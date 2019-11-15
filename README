@@ -1,0 +1,20 @@
+64miniword (C)1985-2019 Bo Zimmerman
+Please read the LICENSE file for license information
+Please read the NOTICE file for credits information
+Home Page: http://www.zimmers.net/geos/
+
+64miniword is a 40 column word processor for the Commodore 64 with features that were cutting-edge for the day, such as word-wrap, unword-wrap, line insert/delete, line centering, screen color control, tabbing (indent), wysiwyg printing on a supported printer, disk control, file saving/loading, search, go to line, and even a built-in calculator.  
+
+"mw-switcheroo" a separate program for converting to/from miniword format and a standard cbm petscii file.
+
+Full documentation for the program are in the text file "mw_docs.txt".  They can also be read using 64miniword itself (it includes a little tutorial).  This file is called "2.5docs.mw" or "2.5docs.mw.prg" in the source directory.  
+
+Building:
+64miniword and switcheroo are built using the BLITZ! compiler, but can be tested (slowly) in BASIC.
+
+The assembly portion was originally written for the LADS, but obviously has been ported to 64 prg studio format.  
+
+The assembly file **MUST** be renamed to "v2.5 ml" before using with either of the two BASIC tools.
+
+
+

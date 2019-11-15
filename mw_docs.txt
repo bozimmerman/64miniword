@@ -1,0 +1,94 @@
+64miniword V 2.5 DOCS 
+Welcome to the world of mini wordprocesors with the Commodore-64 Miniword program by The Zacman!
+
+This program is meant for the writing of letters and small text even though it is capable of storing up to 640 lines of it.
+
+Included in the numerous features are WRAP-AROUND,UNWRAP,CENTERING,INSERT LINE,DELETE LINE, and much much more. 
+
+Here is a description of the commands available to you outside of the command level. These features are either automatic or require only pushing one button.
+
+1) WRAP AROUND-
+Have you ever found yourself cutting a word in half as you typed beyond the end of a screen-line? Of course you have! With this program, typing on the last column of a line automatically exicutes a wrap around which puts a word that might have otherwise been cut in half onto the next line. You are then ready to continue typing so you never have to look up from the keyboard! 
+
+Try it out! Finish the word "automatic" where the "a" is below. Notice how the word 'wraps' around when the word stretches beyond the last character. 
+a------ 
+
+2) UNWRAP 
+As a compliment to the wrap around feature is the UNWRAP. When ever you delete a character from the first word of a line, the program checks to see if that word could fit at the end of the line above it. This helps to conserve space on the screen. 
+
+Try it out! Finish the word "happyful" where the "h" is below. Then after the word wraps, delete the last three letters and watch "happy" bounce up to the space above! 
+H----- 
+
+3) CENTERING 
+To center any text on any line, just move the cursor up to the line containing the text you wish to center and press the 'f3' button on the right side of your computer. If nothing seems to happen then the words were alreay centered! 
+
+Try it out! Move the cursor (using the cursor keys) down to the word 'TITLES' below and press 'f3'. 
+TITLES 
+
+4) INSERT 
+To insert a line into the text, move the cursor to where you want the new line and press 'f5'. The new line will then be inserted. But don't take this and the delete option for granted. In older versions, the process took as long as 30 seconds. With my updated ML file, the process takes only moments! 
+
+5) DELETE 
+Deleting an unwanted line is as easy as moving the cursor to the line you want to delete and pressing 'f7'! 
+
+6) COLOR CONTROL 
+Pressing 'f2', 'f4', and a color key toggles the border,background,and changes the text color respectivly. 
+
+7) INDENT 
+Rounding off the NON-COMMAND LEVEL features is a indent key. Pressing 'f6' while the cursor is on column zero will throw the cursor 5 characters forward. 
+
+Here is the command summery: 
+
+F2) Border color 
+F3) Centering 
+F4) Background color 
+F5) Insert Line 
+F6) Indent 
+F7) Delete Line 
+
+Command Menu 
+
+Pressing 'F1' takes you to the main command level which gives you access to other fine features of this program. As soon a the border stops flashing and the "COMMAND LEVEL" message appears, these commands are available to you: 
+
+S)ave 
+Typing 'S' will let you have a chance to save your text. It will first ask if XXX is where you want to save to. This is in case you want to save a smaller amount of text than you typed. 
+
+It will then ask for a filename. This must be 16 characters or less. Typing "*" at any of these prompts takes you from this routine and most other routines. 
+
+Warning: the save routine scratches the file before it saves it, this is in case you want to update a file. 
+
+L)oad 
+Typing 'L' asks only for a filename before it starts to load the file. It will only load miniword (PRG) files. No BASIC, ML, or SEQ can be loaded without problems. 
+
+P)rint 
+Typing 'P' first asks you if line XXX is where you wish to save to. It asks this for the same reason as the SAVE routine does: in case you only want to print PART of your text. It will than proceed to print your text in ENHANCED printing mode. As far as I know, this program is compatable with all MPS printers and mabe 1526. If this program does not work on your printer, but it DOES have a double-width or an enhanced printing ability, then please leave me mail with your printer type and the ASCII code for activated enhanced printing on your printer. 
+
+J)ump line command 
+This simply lets you jump to another line of your text without scrolling all the way there. 
+
+$) Directory 
+Typing shft/4 or "$" gives the directory on device 8, unit 0. 
+
+D)isk Channel 
+This first asks for a command to send (remember '*' will take you from most routines). Example commands could be "s0" (scratch) or "v" (validate). It than adds a ":" to the command and asks for a command field, usually a filename or parameter. 
+
+F)ind-a-string 
+If you have written a large document and want to find out where a certain string or phrase was written, than use THIS routine. The prompts are self explanetory and "*" will return you from here. The process of searching for a string is NOT fast but isn't real slow either. 
+
+C)alculator mode 
+The newest feature on the miniwordis a small, but useful calculator with multiplication, division, addition, subtraction, and exponents. It works the same as most hand-held calculators so you should have no problems. The CLR/HOME button returns you from here, and SHFT/CLR/HOME clears the calculators memory. 
+
+E)rase work 
+This function erases ALL of the text in memory but is NOT required before loading another file. Because of the new ML file, this process seems almost instantaneous. 
+
+X) Exit 
+Finishing off the command level commands is Exit. It simply performs a run/stop-restore and leaves the program intact...including the text. Type 'RUN' to restart. 
+
+This program was written for modemers use.. and comments. If you like, or even HATE this program, please leave me mail with comments and/or suggestions through github. 
+
+2.5 updates 
+I could go ON and ON about this new update. The most notable thing is that I rewrote the ML file so EVERYTHING you do is in near LIGHTENING SPEED. That includes the preveously SLOW insert and delete functions. Besides the cursor color and unwrap routines, there is also the new little calculator that gave me so much trouble. I never thought calculator programs were so complex! 
+
+Also, out of popular demand, I made this program compatable with SEQ files... sort of. Included with this package is a program called Mini-Switcheroo v1.0 that will convert SEQ to Miniword format and Miniword files to SEQ format. It will add a "/m" to the end of the filename for the former function and a "/a" for the latter. I hope this encourages you to use it more... it's worth it! 
+
+Well, I hope you enjoy the NEW version. Happy Docwriting and Computing! 
